@@ -3,8 +3,9 @@
 ```
 envcheck.py
 ```
-Check the test file next to the source to see how it works.
 
-This fails fast when required environment variables are missing. It pulls in zero dependencies.
+Run the Python Envcheck test next to the implementation for concrete examples.
 
-You don't need a background service or extra packages. It just uses the standard library and keeps your cold starts cheap.
+Fail fast when required environment variables are missing — dependency-free.
+
+Python Envcheck uses only the python standard library; there is no service or dependency to install.
