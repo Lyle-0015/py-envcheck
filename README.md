@@ -3,9 +3,8 @@
 ```
 envcheck.py
 ```
+Check the tests next to the implementation for practical examples.
 
-Run the Python Envcheck test next to the implementation for concrete examples.
+Your app needs to crash immediately when a required environment variable is missing. Envcheck handles that. Zero extra dependencies.
 
-Fail fast when required environment variables are missing — dependency-free.
-
-Python Envcheck uses only the python standard library; there is no service or dependency to install.
+It runs entirely on the Python standard library. No external packages to install and no remote services to call.
